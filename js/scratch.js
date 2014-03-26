@@ -72,7 +72,7 @@ function Scratch(ctx, imgUrl, isStopNav) {
         }
 
         //0.7,在涂层的面积小于等于70%时,就弹出窗口,表示刮完了
-        var temp  = w*h*0.7;
+        var temp  = w*h*0.3;
         console.log(temp);
         console.log(j);
         if(j<=temp){
